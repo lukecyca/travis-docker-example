@@ -1,6 +1,8 @@
 travis-docker-example
 =====================
 
+[![Build Status](https://travis-ci.org/lukecyca/travis-docker-example.png)](https://travis-ci.org/lukecyca/travis-docker-example)
+
 Proof of concept for running docker in a Travis CI build under [User Mode Linux](http://user-mode-linux.sourceforge.net)
 
 With inspiration from:
