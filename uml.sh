@@ -7,6 +7,7 @@ set -e
 save_and_shutdown() {
   # save built for host result
   # force clean shutdown
+  echo $? > $WORKDIR/exit.status
   halt -f
 }
 
